@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Healckup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- <img src="logo.png" alt="Car Health Logo" id="logo"> -->
+        <h1>The Car Health cheker</h1><br> 
+        <h1>One Car Health Checkup</h1>
+        <button>
+            <a id="jj" href="index.html">Go back</a>
+        </button>
+    </header>
+
+    <section id="checkup-form">
+        <h2>Enter Car Details</h2>
+        <form id="carCheckupForm">
+            <label for="carModel"><i class="fas fa-car"></i> Car Model:</label>
+            <input type="text" id="carModel" name="carModel" required>
+
+            <label for="carMileage"><i class="fas fa-tachometer-alt"></i> Current Mileage (km):</label>
+            <input type="number" id="carMileage" name="carMileage" required>
+
+            <label for="lastService"><i class="fas fa-tools"></i> Last Service (months ago):</label>
+            <input type="number" id="lastService" name="lastService" required>
+
+            <label for="oilLevel"><i class="fas fa-oil-can"></i> Oil Level (in %):</label>
+            <input type="number" id="oilLevel" name="oilLevel" max="100" min="0" required>
+
+            <button type="submit"><i class="fas fa-stethoscope"></i> Check Health</button>
+        </form>
+
+        <div id="result">
+            <h3>Health Status:</h3>
+            <p id="healthMessage"></p>
+        </div>
+    </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <footer>
+        <p>&copy; 2024 bilal car care. copy right .</p>
+        
+    </footer>
+</body>
+</html>

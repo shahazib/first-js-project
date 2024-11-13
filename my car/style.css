@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #d2cfcf;
+    color:  rgb(0, 0, 0);
+
+}
+#jok{
+
+    color: white;
+}
+header {
+    background-color:  rgb(0, 0, 0);
+    height: 100vh;
+  background: url('https://img.freepik.com/free-photo/professional-car-mechanic-repair-shop_342744-264.jpg?uid=R151663169&ga=GA1.1.1726582998.1731174488&semt=ais_hybrid') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  animation: fadeIn 1.5s ease-in-out;
+    /* background: rgb(131,58,180); */
+/* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(170,49,131,1) 16%, rgba(182,46,116,1) 21%, rgba(192,44,104,1) 25%, rgba(204,41,89,1) 30%, rgba(216,38,74,1) 35%, rgba(236,33,50,1) 43%, rgba(253,29,29,1) 50%, rgba(253,67,39,1) 63%, rgba(253,82,43,1) 68%, rgba(253,94,46,1) 72%, rgba(253,112,51,1) 78%, rgba(253,132,57,1) 85%, rgba(253,144,60,1) 89%, rgba(253,159,64,1) 94%, rgba(253,159,64,1) 94%, rgba(252,176,69,1) 100%); */
+    /* color: white; */
+    /* padding: 10px 0; */
+    /* text-align: center; */
+}
+#Health{
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color:   rgb(0, 0, 0);
+}
+
+footer {
+    
+    background: rgb(0, 0, 0);
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(170,49,131,1) 16%, rgba(182,46,116,1) 21%, rgba(192,44,104,1) 25%, rgba(204,41,89,1) 30%, rgba(216,38,74,1) 35%, rgba(236,33,50,1) 43%, rgba(253,29,29,1) 50%, rgba(253,67,39,1) 63%, rgba(253,82,43,1) 68%, rgba(253,94,46,1) 72%, rgba(253,112,51,1) 78%, rgba(253,132,57,1) 85%, rgba(253,144,60,1) 89%, rgba(253,159,64,1) 94%, rgba(253,159,64,1) 94%, rgba(252,176,69,1) 100%);; */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(0, 0,0 );
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(30, 224, 81);
+}
